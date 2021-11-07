@@ -1,14 +1,8 @@
 {
-  "name": "book-backend-graphQL",
+  "name": "book-backend-graphql",
   "version": "1.0.0",
-  "description": "website for book store",
+  "description": "This is a backedn logic for book managment ystem uning graphql",
   "main": "app.js",
-  "scripts": {
-    "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ritesh Jangir",
-  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
@@ -17,5 +11,20 @@
     "graphql": "^16.0.1",
     "lodash": "^4.17.21",
     "mongoose": "^6.0.12"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrriteshjangir/book-backend-graphQL.git"
+  },
+  "author": "Ritesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrriteshjangir/book-backend-graphQL/issues"
+  },
+  "homepage": "https://github.com/mrriteshjangir/book-backend-graphQL#readme"
 }
